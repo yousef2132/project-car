@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # prject-task
 
 ## Project setup
@@ -22,3 +23,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# project-car
+this new car
+>>>>>>> b25af800c54c50f17a0fb319673d5779c6b24949

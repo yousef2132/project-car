@@ -1,7 +1,7 @@
 <template>
-  <NavComponent :activeabout="activeabout" />
+  <NavComponent />
   <section class="section-about">
-    <h2 class="text-center mb-4">عن الموقع</h2>
+    <h2 class="text-center mb-4">الشروط والاحكام</h2>
     <p class="about-text">
       هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص
       من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد النصوص
@@ -36,11 +36,6 @@ export default {
   components: {
     NavComponent,
     FooterComponent,
-  },
-  data() {
-    return {
-      activeabout: "text-color",
-    };
   },
 };
 </script>
